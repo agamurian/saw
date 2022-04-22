@@ -1,2 +1,21 @@
-1. Change the paths in docker-compose
-2. Run `docker-compose run --entrypoint "npm install"  frontend`
+FRONTEND: SVELTEKIT + BOOTSTRAP + I18N + MDSVEX (SKIS)
+------------------------------------------------------
+`
+cd frontend
+`
+###Install Packages:
+`
+yarn
+`
+### Run development server:
+`
+yarn dev
+`
+### Build for production:
+`
+yarn build
+`
+### Serve the production build:
+`
+serve ./build
+`
